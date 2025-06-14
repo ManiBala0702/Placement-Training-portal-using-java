@@ -27,3 +27,11 @@ System.out.println("Invalid");
 return;}
 System.out.println(result);
 }}
+// SAMPLE INPUT & OUTPUT
+// INPUT
+// +
+// 5
+// 4
+// OUTPUT
+// 9
+
