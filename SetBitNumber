@@ -1,0 +1,16 @@
+import java.util.*;
+public class main{
+public static void main(String[] args){
+Scanner scanner= new Scanner(System.in);
+int x = scanner.nextInt();
+for(int i=0;i<x;i++){
+int y = scanner.nextInt();
+int count = 0;
+for(int j = 1;j<=y;j++){
+count+=Integer.bitCount(j);
+}
+System.out.println(count);}}}
+
+/** example execution
+input: 1 4
+output : 5 **/
