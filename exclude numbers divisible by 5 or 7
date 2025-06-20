@@ -1,0 +1,14 @@
+import java.util.*;
+public class main{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int x = sc.nextInt();
+for(int i = 1;i<=x;i++){
+if(i%5==0 || i%7==0){
+continue;}
+System.out.print(i+" ");
+}}}
+
+/** example execution
+input : 15
+output : 1 2 3 4 6 8 9 11 12 13  **/
